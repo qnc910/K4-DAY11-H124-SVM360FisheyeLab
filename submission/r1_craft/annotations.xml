@@ -9,7 +9,7 @@
       <overlap>0</overlap>
       <bugtracker></bugtracker>
       <created>2026-09-28 10:20:33.090243+00:00</created>
-      <updated>2026-09-28 20:32:44.013684+00:00</updated>
+      <updated>2026-09-28 19:39:38.001362+00:00</updated>
       <subset>default</subset>
       <start_frame>0</start_frame>
       <stop_frame>2</stop_frame>
@@ -234,11 +234,16 @@ privacy_or_policy</values>
         </label>
       </labels>
     </job>
-    <dumped>2026-09-28 20:32:53.610203+00:00</dumped>
+    <dumped>2026-09-28 19:40:40.275696+00:00</dumped>
   </meta>
   <image id="0" name="adasind_152940.jpg" width="1080" height="1920">
     <box label="Car" source="manual" occluded="0" xtl="190.91" ytl="814.00" xbr="215.80" ybr="849.69" z_order="0">
       <attribute name="occluded">true</attribute>
+      <attribute name="truncated">false</attribute>
+      <attribute name="edge_zone">false</attribute>
+    </box>
+    <box label="Truck" source="manual" occluded="0" xtl="144.31" ytl="791.50" xbr="191.20" ybr="857.70" z_order="0">
+      <attribute name="occluded">false</attribute>
       <attribute name="truncated">false</attribute>
       <attribute name="edge_zone">false</attribute>
     </box>
@@ -247,9 +252,9 @@ privacy_or_policy</values>
       <attribute name="truncated">false</attribute>
       <attribute name="edge_zone">false</attribute>
     </box>
-    <box label="Truck" source="manual" occluded="0" xtl="144.31" ytl="791.50" xbr="191.20" ybr="857.70" z_order="0">
+    <box label="Bike" source="manual" occluded="0" xtl="862.30" ytl="766.60" xbr="1080.00" ybr="1127.80" z_order="0">
       <attribute name="occluded">false</attribute>
-      <attribute name="truncated">false</attribute>
+      <attribute name="truncated">true</attribute>
       <attribute name="edge_zone">false</attribute>
     </box>
     <polygon label="ignore_region" source="file" occluded="0" points="0.00,981.10;0.00,0.00;1080.00,0.00;1080.00,981.10;1080.00,909.83;1080.00,839.11;1080.00,769.46;1080.00,701.43;1080.00,635.53;1080.00,572.25;1080.00,512.09;1080.00,455.49;1080.00,402.90;1029.81,354.71;973.21,311.28;913.05,272.95;849.77,240.01;783.87,212.71;715.84,191.26;646.19,175.82;575.47,166.51;504.20,163.40;432.93,166.51;362.21,175.82;292.56,191.26;224.53,212.71;158.63,240.01;95.35,272.95;35.19,311.28;0.00,354.71;0.00,402.90;0.00,455.49;0.00,512.09;0.00,572.25;0.00,635.53;0.00,701.43;0.00,769.46;0.00,839.11;0.00,909.83;0.00,981.10" z_order="0">
@@ -273,11 +278,6 @@ privacy_or_policy</values>
       <attribute name="truncated">false</attribute>
       <attribute name="edge_zone">false</attribute>
     </box>
-    <box label="Bike" source="manual" occluded="0" xtl="862.30" ytl="766.60" xbr="1080.00" ybr="1127.80" z_order="0">
-      <attribute name="occluded">false</attribute>
-      <attribute name="truncated">true</attribute>
-      <attribute name="edge_zone">false</attribute>
-    </box>
   </image>
   <image id="1" name="adasind_167700.jpg" width="1080" height="1920">
     <box label="Bike" source="manual" occluded="0" xtl="756.60" ytl="948.40" xbr="966.80" ybr="1290.00" z_order="0">
@@ -295,7 +295,7 @@ privacy_or_policy</values>
       <attribute name="truncated">false</attribute>
       <attribute name="edge_zone">false</attribute>
     </box>
-    <box label="Truck" source="manual" occluded="0" xtl="582.00" ytl="871.90" xbr="700.50" ybr="998.00" z_order="0">
+    <box label="Truck" source="manual" occluded="0" xtl="486.20" ytl="895.81" xbr="545.60" ybr="948.10" z_order="0">
       <attribute name="occluded">false</attribute>
       <attribute name="truncated">false</attribute>
       <attribute name="edge_zone">false</attribute>
@@ -316,7 +316,7 @@ privacy_or_policy</values>
       <attribute name="truncated">false</attribute>
       <attribute name="edge_zone">false</attribute>
     </box>
-    <box label="Truck" source="manual" occluded="0" xtl="486.20" ytl="895.81" xbr="545.60" ybr="948.10" z_order="0">
+    <box label="Truck" source="manual" occluded="0" xtl="582.00" ytl="871.90" xbr="698.90" ybr="998.00" z_order="0">
       <attribute name="occluded">false</attribute>
       <attribute name="truncated">false</attribute>
       <attribute name="edge_zone">false</attribute>
@@ -338,6 +338,11 @@ privacy_or_policy</values>
     </box>
   </image>
   <image id="2" name="adasind_212280.jpg" width="1080" height="1920">
+    <box label="Bike" source="manual" occluded="0" xtl="300.10" ytl="845.15" xbr="368.00" ybr="1046.03" z_order="0">
+      <attribute name="occluded">false</attribute>
+      <attribute name="truncated">false</attribute>
+      <attribute name="edge_zone">false</attribute>
+    </box>
     <box label="Bike" source="manual" occluded="0" xtl="243.80" ytl="896.99" xbr="290.50" ybr="939.40" z_order="0">
       <attribute name="occluded">false</attribute>
       <attribute name="truncated">false</attribute>
@@ -348,12 +353,10 @@ privacy_or_policy</values>
       <attribute name="truncated">false</attribute>
       <attribute name="edge_zone">false</attribute>
     </box>
-    <box label="Bike" source="manual" occluded="0" xtl="300.10" ytl="845.15" xbr="368.00" ybr="1046.03" z_order="0">
-      <attribute name="occluded">false</attribute>
-      <attribute name="truncated">false</attribute>
-      <attribute name="edge_zone">false</attribute>
-    </box>
     <polygon label="ignore_region" source="file" occluded="0" points="1080.00,1057.40;1080.00,1920.00;0.00,1920.00;0.00,1057.40;0.00,1128.60;0.00,1199.25;0.00,1268.83;0.00,1336.80;0.00,1402.64;0.00,1465.85;0.00,1525.95;0.00,1582.49;0.00,1635.04;51.31,1683.18;107.85,1726.57;167.95,1764.86;231.16,1797.76;297.00,1825.03;364.97,1846.46;434.55,1861.89;505.20,1871.19;576.40,1874.30;647.60,1871.19;718.25,1861.89;787.83,1846.46;855.80,1825.03;921.64,1797.76;984.85,1764.86;1044.95,1726.57;1080.00,1683.18;1080.00,1635.04;1080.00,1582.49;1080.00,1525.95;1080.00,1465.85;1080.00,1402.64;1080.00,1336.80;1080.00,1268.83;1080.00,1199.25;1080.00,1128.60;1080.00,1057.40" z_order="0">
+      <attribute name="reason">lens_border</attribute>
+    </polygon>
+    <polygon label="ignore_region" source="file" occluded="0" points="0.00,1057.40;0.00,0.00;1080.00,0.00;1080.00,1057.40;1080.00,986.20;1080.00,915.55;1080.00,845.97;1080.00,778.00;1080.00,712.16;1080.00,648.95;1080.00,588.85;1080.00,532.31;1080.00,479.76;1080.00,431.62;1044.95,388.23;984.85,349.94;921.64,317.04;855.80,289.77;787.83,268.34;718.25,252.91;647.60,243.61;576.40,240.50;505.20,243.61;434.55,252.91;364.97,268.34;297.00,289.77;231.16,317.04;167.95,349.94;107.85,388.23;51.31,431.62;0.00,479.76;0.00,532.31;0.00,588.85;0.00,648.95;0.00,712.16;0.00,778.00;0.00,845.97;0.00,915.55;0.00,986.20;0.00,1057.40" z_order="0">
       <attribute name="reason">lens_border</attribute>
     </polygon>
     <box label="Bike" source="manual" occluded="0" xtl="223.90" ytl="898.30" xbr="255.10" ybr="925.40" z_order="0">
@@ -371,8 +374,5 @@ privacy_or_policy</values>
       <attribute name="truncated">true</attribute>
       <attribute name="edge_zone">false</attribute>
     </box>
-    <polygon label="ignore_region" source="file" occluded="0" points="0.00,1057.40;0.00,0.00;1080.00,0.00;1080.00,1057.40;1080.00,986.20;1080.00,915.55;1080.00,845.97;1080.00,778.00;1080.00,712.16;1080.00,648.95;1080.00,588.85;1080.00,532.31;1080.00,479.76;1080.00,431.62;1044.95,388.23;984.85,349.94;921.64,317.04;855.80,289.77;787.83,268.34;718.25,252.91;647.60,243.61;576.40,240.50;505.20,243.61;434.55,252.91;364.97,268.34;297.00,289.77;231.16,317.04;167.95,349.94;107.85,388.23;51.31,431.62;0.00,479.76;0.00,532.31;0.00,588.85;0.00,648.95;0.00,712.16;0.00,778.00;0.00,845.97;0.00,915.55;0.00,986.20;0.00,1057.40" z_order="0">
-      <attribute name="reason">lens_border</attribute>
-    </polygon>
   </image>
 </annotations>

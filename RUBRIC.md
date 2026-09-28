@@ -3,7 +3,7 @@
 Rubric này chấm **bằng chứng trong repo bài làm và lập luận gắn với ảnh**, không chấm tốc độ bấm CVAT hay số lượng box vẽ thêm. Toàn bộ phần vạch ô đỗ, fisheye và kế hoạch SVM bốn camera giả lập đều thuộc buổi lab Day 11 kéo dài 240 phút. [README](README.md) cho biết việc cần làm; [GUIDE](GUIDE.md) chỉ thao tác.
 
 `python3 lab11.py check` kiểm file, định dạng và một số điều kiện tối thiểu. Nó **không** cho điểm, xác nhận vạch đỗ đúng, xác nhận teaching reference là gold set, hoặc thay người đọc bài. Mỗi tiêu chí dưới đây có điểm tối đa; điểm phần chỉ trao khi bằng chứng có thể truy về đúng ảnh, frame, quy tắc hoặc số liệu. Repo chưa đặt ngưỡng đạt/trượt.
-
+s
 ## Bảng điểm
 
 | Tiêu chí | Cách phân điểm và bằng chứng | Tối đa |

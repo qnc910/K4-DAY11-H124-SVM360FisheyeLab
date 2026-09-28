@@ -3,18 +3,17 @@
 Chỉ số L/R là thứ tự box cao ≥ H=40 trong từng frame, theo thứ tự XML; bắt đầu từ 1.
 Box L trong ignore_region được báo IGNORE_SCOPE, không tính SPURIOUS.
 
-## adasind_062370.jpg
-- L7+R1 mid ATTRIBUTE
-- R7 center MISSING
-- R8 center MISSING
-## adasind_069450.jpg
-- L5+R2 mid WRONG_CLASS
-## adasind_117120.jpg
-- L4 center SPURIOUS
+## adasind_152940.jpg
+- R6 mid MISSING
+## adasind_167700.jpg
+- L5 mid IGNORE_SCOPE
+- L7+R4 center WRONG_CLASS
+## adasind_212280.jpg
+- L2 mid IGNORE_SCOPE
 
 ## Theo zone
 | zone | n_ref | matched | missing | spurious |
 |---|---|---|---|---|
-| center | 13 | 11 | 2 | 1 |
-| mid | 5 | 4 | 1 | 1 |
+| center | 10 | 9 | 1 | 1 |
+| mid | 6 | 5 | 1 | 0 |
 | edge | 2 | 2 | 0 | 0 |

@@ -1,9 +1,19 @@
 round: rework
-slice: B2-dense
-sha256: 431dae600c36d0e1fd74699d8e46c8bbdbfe339c33bdc75048ea78b286e57324
-code: 431D-AE60
-locked_at: 2026-09-28T17:26:26+07:00
-shapes: box=19, polygon=6
-prefill_kept: 4
-prefill_edited: 0
-new: 15
+slice: B3-center
+sha256: 6ec6d1bb1902a04ddd113cd8ca598c45e20cf71a1a915b5232688a47c30e2a8e
+code: 6EC6-D1BB
+locked_at: 2026-09-29T03:40:08+07:00
+shapes: box=23, polygon=6
+prefill_kept: 1
+prefill_edited: 2
+new: 20
+history:
+  round: rework
+  slice: B2-dense
+  sha256: 431dae600c36d0e1fd74699d8e46c8bbdbfe339c33bdc75048ea78b286e57324
+  code: 431D-AE60
+  locked_at: 2026-09-28T17:26:26+07:00
+  shapes: box=19, polygon=6
+  prefill_kept: 4
+  prefill_edited: 0
+  new: 15

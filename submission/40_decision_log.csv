@@ -3,3 +3,4 @@ D01,2026-09-28,Xu ly nguoi lai xe hai banh,Gop nguoi lai va xe may thanh mot box
 D02,2026-09-28,Phan loai xe ba banh cho hang o le duong,Gan nhan ThreeWheeler thay vi Truck,Tuan thu rule R04 ve anh xa phuong tien dac thu ba banh,approved
 D03,2026-09-28,Xu ly box duoi nguong chieu cao H=40px,Loai bo cac box nho o hau canh khong dat nguong,Tuan thu rule R01 de tranh sinh ra false positive khong can thiet,approved
 D04,2026-09-28,Doi tuong xe ba banh duoc ca nguoi va model phat hien nhung reference khong co,Tao escalation ticket de doi ngu guideline xem xet bo sung vao reference,Co dong thoi bang chung tu nguoi va model cho thay day la thieu sot cua teaching reference E0,escalated
+D05,2026-09-29,Rework lock dang chua slice B2-dense can khoa lai cho slice B3-center cua minh,Dung --relock de khoa lai rework voi file export dung slice B3-center,Lock truoc do la cua thanh vien khac (B2-dense) can khoa lai cho dung slice duoc gan (B3-center),approved
